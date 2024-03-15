@@ -9,3 +9,17 @@ GET http://localhost:8080/employee/65f4c67285656c2a270fbed4
 GET http://localhost:8080/employee/65f4c67285656c2a270fbed5
 ### Get by ID
 GET http://localhost:8080/employee/65f4c67285656c2a270fbed6
+
+
+
+// Render
+### Get all User
+GET https://cse341-final-project-1umx.onrender.com/employee/
+### Get by ID
+GET https://cse341-final-project-1umx.onrender.com/employee/65f4c67285656c2a270fbed3
+### Get by ID
+GET https://cse341-final-project-1umx.onrender.com/employee/65f4c67285656c2a270fbed4
+### Get by ID
+GET https://cse341-final-project-1umx.onrender.com/employee/65f4c67285656c2a270fbed5
+### Get by ID
+GET https://cse341-final-project-1umx.onrender.com/employee/65f4c67285656c2a270fbed6
