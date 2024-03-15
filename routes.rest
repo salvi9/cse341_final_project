@@ -1,0 +1,11 @@
+// LOCAL HOST
+### Get all Users
+GET http://localhost:8080/employee
+### Get by ID
+GET http://localhost:8080/employee/65f4c67285656c2a270fbed3
+### Get by ID
+GET http://localhost:8080/employee/65f4c67285656c2a270fbed4
+### Get by ID
+GET http://localhost:8080/employee/65f4c67285656c2a270fbed5
+### Get by ID
+GET http://localhost:8080/employee/65f4c67285656c2a270fbed6

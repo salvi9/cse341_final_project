@@ -1,0 +1,38 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "username": "johndoe",
+    "password": "johndoe789",
+    "date_of_birth": "05/15/1990",
+    "language": "English"
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "alice.smith@example.com",
+    "username": "alicesmith",
+    "password": "alicesmith789",
+    "date_of_birth": "10/21/1998",
+    "language": "English & Spanish"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Johnson",
+    "email": "emily.johnson@example.com",
+    "username": "emilyjohnson",
+    "password": "emilyjohnson789",
+    "date_of_birth": "03/08/1995",
+    "language": "English"
+  },
+  {
+    "firstName": "Drake",
+    "lastName": "Blesso",
+    "email": "drake.blesso@example.com",
+    "username": "drakeblesso",
+    "password": "drakeblesso789",
+    "date_of_birth": "03/04/1999",
+    "language": "English"
+  }
+]
