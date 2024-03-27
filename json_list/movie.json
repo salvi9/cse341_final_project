@@ -1,37 +1,32 @@
 [
   {
     "title": "Spider-Man: No Way Home",
-    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "genre": "Action",
     "release_date": "2023-12-17",
-    "actors": ["Tom Holland", "Zendaya", "Benedict Cumberbatch"],
     "rating": "PG-13"
   },
   {
     "title": "The Batman",
-    "genre": ["Action", "Crime", "Drama"],
+    "genre": "Crime",
     "release_date": "2023-03-04",
-    "actors": ["Robert Pattinson", "Zoë Kravitz", "Paul Dano"],
     "rating": "PG-13"
   },
   {
     "title": "Avatar: The Way of Water",
-    "genre": ["Action", "Adventure", "Fantasy"],
+    "genre": "Fantasy",
     "release_date": "2023-12-16",
-    "actors": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
     "rating": "PG-13"
   },
   {
     "title": "Jurassic World: Dominion",
-    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "genre": "Adventure",
     "release_date": "2023-06-09",
-    "actors": ["Chris Pratt", "Bryce Dallas Howard", "Jeff Goldblum"],
     "rating": "PG-13"
   },
   {
     "title": "Top Gun: Maverick",
-    "genre": ["Action", "Drama"],
+    "genre": "Drama",
     "release_date": "2023-05-26",
-    "actors": ["Tom Cruise", "Miles Teller", "Jennifer Connelly"],
     "rating": "PG-13"
   }
 ]

@@ -23,11 +23,11 @@ const saveEmployee = (req, res, next) => {
   });
 };
 
-/* const saveProducts = (req, res, next) => {
+const saveCustomers = (req, res, next) => {
   const validationRule = {
     name: "required|string",
-    price: "required|string",
-    category: "required|string",
+    movie: "required|string",
+    seat: "required|string",
   };
   validator(req.body, validationRule, {}, (err, status) => {
     if (!status) {
@@ -40,8 +40,50 @@ const saveEmployee = (req, res, next) => {
       next();
     }
   });
-}; */
+};
+
+const saveMovies = (req, res, next) => {
+  const validationRule = {
+    title: "required|string",
+    genre: "required|string",
+    release_date: "required|string",
+    rating: "required|string",
+  };
+  validator(req.body, validationRule, {}, (err, status) => {
+    if (!status) {
+      res.status(412).send({
+        success: false,
+        message: "Validation failed",
+        data: err,
+      });
+    } else {
+      next();
+    }
+  });
+};
+
+const saveSnacks = (req, res, next) => {
+  const validationRule = {
+    name: "required|string",
+    description: "required|string",
+    price: "required|string",
+  };
+  validator(req.body, validationRule, {}, (err, status) => {
+    if (!status) {
+      res.status(412).send({
+        success: false,
+        message: "Validation failed",
+        data: err,
+      });
+    } else {
+      next();
+    }
+  });
+};
 
 module.exports = {
   saveEmployee,
+  saveCustomers,
+  saveMovies,
+  saveSnacks,
 };
