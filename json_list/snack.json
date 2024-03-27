@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Popcorn",
+    "description": "Classic movie snack made from popped corn kernels.",
+    "price": "$5.00"
+  },
+  {
+    "name": "Nachos",
+    "description": "Tortilla chips topped with melted cheese, jalapenos, and salsa.",
+    "price": "$6.50"
+  },
+  {
+    "name": "Soft Pretzel",
+    "description": "Warm, soft pretzel served with mustard or cheese dip.",
+    "price": "$4.50"
+  },
+  {
+    "name": "Hot Dog",
+    "description": "Grilled sausage served in a bun, often with condiments like ketchup and mustard.",
+    "price": "$4.00"
+  },
+  {
+    "name": "Candy (Assorted)",
+    "description": "Various types of candy including chocolates, gummies, and sour candies.",
+    "price": "$3.00 - $5.00"
+  },
+  {
+    "name": "Soda",
+    "description": "Carbonated soft drinks available in various flavors and sizes.",
+    "price": "$3.50 - $5.00"
+  },
+  {
+    "name": "Ice Cream",
+    "description": "Single scoop or double scoop ice cream cones or cups.",
+    "price": "$4.50 - $6.00"
+  }
+]

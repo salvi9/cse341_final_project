@@ -1,0 +1,77 @@
+[
+  {
+    "name": "John Wick",
+    "movie": "Spider-Man: No Way Home",
+    "seat": "A12"
+  },
+  {
+    "name": "Jane Johnson",
+    "movie": "Spider-Man: No Way Home",
+    "seat": "B8"
+  },
+  {
+    "name": "David Johnson",
+    "movie": "Spider-Man: No Way Home",
+    "seat": "C5"
+  },
+  {
+    "name": "Emily Brown",
+    "movie": "The Batman",
+    "seat": "D15"
+  },
+  {
+    "name": "Michael Lee",
+    "movie": "The Batman",
+    "seat": "E10"
+  },
+  {
+    "name": "Sarah Williams",
+    "movie": "The Batman",
+    "seat": "F3"
+  },
+  {
+    "name": "Daniel Wilson",
+    "movie": "Avatar: The Way of Water",
+    "seat": "G7"
+  },
+  {
+    "name": "Olivia Martinez",
+    "movie": "Avatar: The Way of Water",
+    "seat": "H2"
+  },
+  {
+    "name": "James Taylor",
+    "movie": "Avatar: The Way of Water",
+    "seat": "I9"
+  },
+  {
+    "name": "Sophia Anderson",
+    "movie": "Jurassic World: Dominion",
+    "seat": "J14"
+  },
+  {
+    "name": "William Garcia",
+    "movie": "Jurassic World: Dominion",
+    "seat": "K1"
+  },
+  {
+    "name": "Isabella Rodriguez",
+    "movie": "Jurassic World: Dominion",
+    "seat": "L6"
+  },
+  {
+    "name": "Ethan Brown",
+    "movie": "Top Gun: Maverick",
+    "seat": "M11"
+  },
+  {
+    "name": "Ava Lopez",
+    "movie": "Top Gun: Maverick",
+    "seat": "N4"
+  },
+  {
+    "name": "Alexander Nguyen",
+    "movie": "Top Gun: Maverick",
+    "seat": "O13"
+  }
+]

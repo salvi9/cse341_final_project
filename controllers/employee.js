@@ -22,12 +22,12 @@ const getSingle = async (req, res) => {
   if (!ObjectId.isValid(req.params.id)) {
     res.status(400).json("Must use a valid user id to find a user.");
   }
-  const userId = new ObjectId(req.params.id);
+  const employeeId = new ObjectId(req.params.id);
   const result = await mongodb
     .getDb()
     .db("final_project")
     .collection("employees")
-    .find({ _id: userId });
+    .find({ _id: employeeId });
   result.toArray().then((lists) => {
     console.log(lists);
     res.setHeader("Content-Type", "application/json");
@@ -35,9 +35,9 @@ const getSingle = async (req, res) => {
   });
 };
 
-const postUser = async (req, res) => {
+const postEmployee = async (req, res) => {
   try {
-    const user = {
+    const employee = {
       firstName: req.body.firstName,
       lastName: req.body.lastName,
       email: req.body.email,
@@ -50,7 +50,7 @@ const postUser = async (req, res) => {
       .getDb()
       .db("final_project")
       .collection("employees")
-      .insertOne(user);
+      .insertOne(employee);
 
     if (response.acknowledged) {
       res.status(201).json(response);
@@ -58,15 +58,15 @@ const postUser = async (req, res) => {
       res.status(500).json(response.error);
     }
   } catch (error) {
-    console.error("Error while posting user:", error);
+    console.error("Error while posting employee:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
 };
 
-const putUser = async (req, res) => {
+const putEmployee = async (req, res) => {
   try {
-    const userId = new ObjectId(req.params.id);
-    const user = {
+    const employeeId = new ObjectId(req.params.id);
+    const employee = {
       firstName: req.body.firstName,
       lastName: req.body.lastName,
       email: req.body.email,
@@ -79,7 +79,7 @@ const putUser = async (req, res) => {
       .getDb()
       .db("final_project")
       .collection("employees")
-      .replaceOne({ _id: userId }, user);
+      .replaceOne({ _id: employeeId }, employee);
 
     console.log(response);
     if (response.modifiedCount > 0) {
@@ -88,19 +88,19 @@ const putUser = async (req, res) => {
       res.status(500).json(response.error);
     }
   } catch (error) {
-    console.error("Error while updating user:", error);
+    console.error("Error while updating employee:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
 };
 
-const deleteUser = async (req, res) => {
+const deleteEmployee = async (req, res) => {
   try {
-    const userId = new ObjectId(req.params.id);
+    const employeeId = new ObjectId(req.params.id);
     const result = await mongodb
       .getDb()
       .db("final_project")
       .collection("employees")
-      .deleteOne({ _id: userId }, true);
+      .deleteOne({ _id: employeeId }, true);
 
     if (result.acknowledged) {
       res.status(200).send();
@@ -108,7 +108,7 @@ const deleteUser = async (req, res) => {
       res.status(500).json(result.error);
     }
   } catch (error) {
-    console.error("Error while deleting user:", error);
+    console.error("Error while deleting employee:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
 };
@@ -116,7 +116,7 @@ const deleteUser = async (req, res) => {
 module.exports = {
   getAll,
   getSingle,
-  postUser,
-  putUser,
-  deleteUser,
+  postEmployee,
+  putEmployee,
+  deleteEmployee,
 };
