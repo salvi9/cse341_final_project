@@ -12,10 +12,6 @@ router.post("/", validation.saveEmployee, employeeController.postEmployee);
 
 router.put("/:id", validation.saveEmployee, employeeController.putEmployee);
 
-router.delete(
-  "/:id",
-  validation.saveEmployee,
-  employeeController.deleteEmployee
-);
+router.delete("/:id", employeeController.deleteEmployee);
 
 module.exports = router;

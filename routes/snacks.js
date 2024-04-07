@@ -12,6 +12,6 @@ router.post("/", validation.saveSnacks, snackController.postSnack);
 
 router.put("/:id", validation.saveSnacks, snackController.putSnack);
 
-router.delete("/:id", validation.saveSnacks, snackController.deleteSnack);
+router.delete("/:id", snackController.deleteSnack);
 
 module.exports = router;

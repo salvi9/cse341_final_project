@@ -12,10 +12,6 @@ router.post("/", validation.saveCustomers, customerController.postCustomer);
 
 router.put("/:id", validation.saveCustomers, customerController.putCustomer);
 
-router.delete(
-  "/:id",
-  validation.saveCustomers,
-  customerController.deleteCustomer
-);
+router.delete("/:id", customerController.deleteCustomer);
 
 module.exports = router;

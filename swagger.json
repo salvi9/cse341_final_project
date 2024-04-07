@@ -138,9 +138,6 @@
           "200": {
             "description": "OK"
           },
-          "412": {
-            "description": "Precondition Failed"
-          },
           "500": {
             "description": "Internal Server Error"
           }
@@ -298,9 +295,6 @@
           "200": {
             "description": "OK"
           },
-          "412": {
-            "description": "Precondition Failed"
-          },
           "500": {
             "description": "Internal Server Error"
           }
@@ -440,9 +434,6 @@
           "200": {
             "description": "OK"
           },
-          "412": {
-            "description": "Precondition Failed"
-          },
           "500": {
             "description": "Internal Server Error"
           }
@@ -575,9 +566,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          },
-          "412": {
-            "description": "Precondition Failed"
           },
           "500": {
             "description": "Internal Server Error"
